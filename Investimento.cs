@@ -23,7 +23,7 @@
         {
             while (inicioInvestimento < fimInvestimento)
             {
-                taxaTotal = Math.Pow1 + taxaJurosDiaria / 100, 30) - 1;
+                taxaTotal = Math.Pow(1 + taxaJurosDiaria / 100, 30) - 1;
                 rendimentoDiario = capitalInicial * taxaTotal;
                 rendimentoTotal += rendimentoDiario;
                 inicioInvestimento = inicioInvestimento.AddDays(1);
